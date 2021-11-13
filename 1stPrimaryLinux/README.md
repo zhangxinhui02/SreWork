@@ -8,7 +8,7 @@ First work for learning
 
 [Learning material](linux基础.md)
 
-[Configuring Environment]([Redrock]Vscode C_Python环境配置-7z.pdf)
+[Configuring Environment]("[Redrock]Vscode C_Python环境配置-7z.pdf")
 
-[Configuring Virtual Machine](教程 搭建年轻人的第一台虚拟机.md)
+[Configuring Virtual Machine]("教程 搭建年轻人的第一台虚拟机.md")
 
