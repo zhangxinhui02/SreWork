@@ -66,7 +66,7 @@ def game():
         if check_result(player_turn, xuejie_turn) is None:
             print("哇，平局！再来一局吧")
         elif check_result(player_turn, xuejie_turn) is True:
-            print("你赢下一句！")
+            print("你赢下一局！")
             player_score += 1
         else:
             print("学姐赢下一局！")
@@ -86,10 +86,11 @@ def game():
 if __name__ == "__main__":
     while True:
         print("""
-        由于你的贪心，你的电脑上出现了一段字符：hacked by yyz。
-        你感到十分的惊恐与无措，因为这台计算机上有着你大量的学习资料。
-        还好yyz发现你是sre的学弟（学妹），
-        于是yyz决定和你来三局两胜制的猜拳决定这台电脑的命运""")
+\t由于你的贪心，你的电脑上出现了一段字符：hacked by yyz。
+\t你感到十分的惊恐与无措，因为这台计算机上有着你大量的学习资料。
+\t还好yyz发现你是sre的学弟（学妹），
+\t于是yyz决定和你来三局两胜制的猜拳决定这台电脑的命运
+""")
         input("按下回车键来与学姐对线\n")
         game()
         if input("\n要就此罢休(输入q)还是继续与学姐酣战一场(按下回车)？") == 'q':
