@@ -1,5 +1,7 @@
 """解码指定的凯撒密码"""
 
+# 位移值应当为9，结果为"can you finish level3?"
+
 
 def get_new_ord(sec_ord, num):
     """对输入的字母对应的ASCII列表进行指定的位移。参数：字符串对应的ASCII列表,位移值"""
